@@ -1,8 +1,8 @@
+'use strict'
 import { expect } from 'chai'
 import factorial from '../src/factorial'
 
 describe('factorial', () => {
-'use strict'
 
   it('exists', () => {
     expect(factorial).to.be.a('function')
