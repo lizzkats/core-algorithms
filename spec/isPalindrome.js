@@ -12,6 +12,7 @@ describe('isPalindrome()', () => {
     expect(isPalindrome('tacocat')).to.equal(true)
     expect(isPalindrome('radar')).to.equal(true)
     expect(isPalindrome('bananas')).to.equal(false)
+    expect(isPalindrome('rAdar')).to.equal(true)
   })
   it('should ignore special characters and spaces', () => {
     expect(isPalindrome('taco*(^&^&%cat')).to.equal(true)
