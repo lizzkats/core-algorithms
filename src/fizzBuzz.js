@@ -9,15 +9,13 @@ export default function fizzBuzz() {
   for(var i = 1; i < arrayNums.length; i++) {
     if (arrayNums[i] % 3 == 0 ){
       arrayNums.splice(i, 1, "Fizz");
-  }
-  if (arrayNums[i] % 5 == 0){
-    arrayNums.splice(i, 1, "Buzz");
-  }
-  if (i % 15 == 0 ){
-    arrayNums.splice(i -1 , 1, "FizzBuzz");
-  }
+    }
+    if (arrayNums[i] % 5 == 0){
+      arrayNums.splice(i, 1, "Buzz");
+    }
+    if (i % 15 == 0 ){
+      arrayNums.splice(i -1 , 1, "FizzBuzz");
+    }
   }
   return arrayNums;
-
-
-  }
+}
