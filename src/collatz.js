@@ -20,7 +20,6 @@ const collatz = (start) => {
 
   doCollatz(start)
 
-  console.log(array)
   return array
 }
 export default collatz
