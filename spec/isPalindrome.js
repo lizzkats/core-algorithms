@@ -3,7 +3,7 @@ import isPalindrome from '../src/isPalindrome'
 
 
 describe('isPalindrome()', () => {
-'use strict'
+  'use strict'
 
   it('exists', () => {
     expect(isPalindrome).to.be.a('function')
@@ -15,5 +15,5 @@ describe('isPalindrome()', () => {
   })
   it('should ignore special characters and spaces', () => {
     expect(isPalindrome('taco*(^&^&%cat')).to.equal(true)
-  })
+  } )
 })

@@ -1,4 +1,5 @@
 'use strict'
+
 export default function fibonacci (number) {
 var fibArray = [0,1]
 if ( number < 3 )
