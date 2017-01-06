@@ -1,12 +1,11 @@
 'use strict'
-export default function isPalindrome(str) {
-  let noPunct = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
-  let normalized = noPunct.replace(/\s/g,'');
-  let splitString = normalized.split('');
-  let backwards = splitString.reverse().join('');
+
+export default function isPalindrome(string) {
+  const noPunctuation = string.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+  const normalized = noPunctuation.replace(/\s/g,'').toLowerCase();
+  const splitString = normalized.split('');
+  const backwards = splitString.reverse().join('');
 
   return backwards === normalized
 
   }
-  isPalindrome("radar");
-isPalindrome("radar");
