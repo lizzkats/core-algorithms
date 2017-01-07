@@ -8,10 +8,19 @@
     "babel-preset-env": "^1.1.4",
     "babel-register": "^6.18.0",
     "chai": "~1.8.0",
+    "eslint": "^3.13.0",
     "mocha": "2.0.1"
   },
   "scripts": {
     "build": "babel src -d lib",
-    "test": "mocha --compilers js:babel-register ./spec/*.js"
+    "test": "mocha --compilers js:babel-register ./spec/*.js",
+    "lint": "./node_modules/.bin/eslint"
+  },
+  "eslintConfig": {
+    "env": {
+    "node":true,
+    "mocha": true,
+    "chai": true
+    }
   }
 }

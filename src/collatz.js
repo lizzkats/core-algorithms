@@ -3,6 +3,10 @@ const collatz = (start) => {
   let array = [];
 
   const doCollatz = (n) => {
+    if( typeof( n ) !== 'number' ) {
+      throw "InvalidInput"
+    }
+
     array.push(n);
 
     if (n === 1){
