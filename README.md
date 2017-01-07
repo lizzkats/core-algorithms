@@ -7,6 +7,7 @@ Base repository for the [Core Algorithms](https://github.com/GuildCrafts/web-dev
 ## Installation and Setup
 NPM install to install devDependencies
 Use npm run lint src or spec to run the linter on files.
-Run npm test to run assertion tests.
+Run npm test to run assertion tests..
+
 ## Usage and Examples
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xdElovY8A2w" frameborder="0" allowfullscreen></iframe>
+![alt text](http://s2.quickmeme.com/img/37/37d58eec3f40957821ed9704bb747fb74db3dd0a3b657e16a77bfb1840dab7a2.jpg "kitty")
