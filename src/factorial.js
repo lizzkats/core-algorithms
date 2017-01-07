@@ -3,6 +3,10 @@ export default function factorial(n){
 //take a number
 //recursively subtract one
 //multiply the previous number by the current number
+if( typeof( n ) !== 'number' ) {
+  throw "InvalidInput"
+}
+
 if(n === 0){
   return 1;
 }

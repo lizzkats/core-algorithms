@@ -1,4 +1,4 @@
-import { expect } from 'chai'
+import {expect} from 'chai'
 import isPalindrome from '../src/isPalindrome'
 
 
@@ -16,4 +16,9 @@ describe('isPalindrome()', () => {
   it('should ignore special characters and spaces', () => {
     expect(isPalindrome('taco*(^&^&%cat')).to.equal(true)
   } )
+  context( 'with invalid input', () => {
+    it( 'returns invalid with input that is not a string', () => {
+      expect( () => isPalindrome(1)).to.throw( "InvalidInput" )
+    })
+  })
 })
