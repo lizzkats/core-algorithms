@@ -9,4 +9,4 @@ NPM install to install devDependencies
 Use npm run lint src or spec to run the linter on files.
 Run npm test to run assertion tests.
 ## Usage and Examples
-[![Alt text for your video](http://img.youtube.com/watch?v=xdElovY8A2w/0.jpg)](https://www.youtube.com/watch?v=xdElovY8A2w)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xdElovY8A2w" frameborder="0" allowfullscreen></iframe>
